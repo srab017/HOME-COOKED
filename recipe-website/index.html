@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Home Cooked</title>
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="styleSheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="styleSheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png" alt="wesite logo"></a>
+            <div class="nav-links">
+                <i class="uil uil-times"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="">RECIPES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="uil uil-bars"></i>
+
+        </nav>
+
+        
+            <div class="text-box">
+                <div class="featured-name">
+                    <h1>Bringing the world to yours table, one <span class="typedText"></span>at a time</h1>
+                </div>
+                <p>Explore a variety of international dishes with a special focus on authentic Sudanese cuisine.</p>
+                <a href="About.html" class="hero-btn">MORE ABOUT US</a>
+                
+            </div>
+            
+       
+    </section>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <script>
+        /* ----- TYPING EFFECT ----- */
+        var typingEffect = new Typed(".typedText", {
+            strings: ["RECIPE", "DISH", "FLAVOR", "BITE"],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 2000
+        })
+    </script>
+</body>
+
+</html>
